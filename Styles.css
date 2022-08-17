@@ -77,6 +77,11 @@ button{
     
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    color: lightskyblue;
+}
 
 
 
