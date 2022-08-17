@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <script src="Scripts.js" defer></script>
+    <link rel="Stylesheet" href="Styles.css">
+</head>
+<body>
+    <h1>Pixel-draw</h1>
+    <div class="container">
+        <div class="control">
+            <button class="reset" onclick= "clearAll()">Clear all</button>
+            <div class="color-box">
+                <button class="colour" id="blue" style="color: blue;" onclick="chooseColor('blue')">BLUE</button>
+                <button class="colour" id="green" style="color: green;" onclick="chooseColor('green')">GREEN</button>
+                <button class="colour" id="pink" style="color: pink;" onclick="chooseColor('pink')">PINK</button>
+                <button class="colour" id="red" style="color: red;" onclick="chooseColor('red')">RED</button>
+                <button class="colour" id="red" style="color: black;" onclick="chooseColor('black')">BLACK</button>
+            </div>
+            <button class="rainbow" onclick="rainbow()">Rainbow</button>
+            <div class="sliderContainer">
+                <p id = "sliderValue"></p>
+                <input type="range" min="4" max="100" value="16" step="2" class="slider" id="gridSize">
+            </div>
+            
+        </div>
+        <div id="drawPanel">
+            
+        </div>
+    </div>
+</body>
+</html>
