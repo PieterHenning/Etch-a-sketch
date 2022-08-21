@@ -9,3 +9,9 @@ TOP Project: Etch-a-sketch
     to chosen color
     to random color
 - clear button
+
+-Future Ideas:
+    - Change from hover drawing to hold down mouse button to draw
+    - Darker with every pass
+    - change cursor inside sketch area
+    - eraser
