@@ -11,7 +11,7 @@ TOP Project: Etch-a-sketch
 - clear button
 
 -Future Ideas:
-    - Change from hover drawing to hold down mouse button to draw
-    - Darker with every pass
-    - change cursor inside sketch area
-    - eraser
+    Change from hover drawing to hold down mouse button to draw. 
+    Darker with every pass. 
+    Change cursor inside sketch area. 
+    Eraser. 
